@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a, .b {
+    height: 300px;
+}
+.a {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px));
+    background: #FE8F8F;
+}
+.b {
+    clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%);
+    margin-top: -60px;
+    background: #A0D1FF;
+}
